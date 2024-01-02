@@ -1,7 +1,17 @@
 {
   "info": {
     "title": "Turca App - Yazılım",
-    "desc": "Basit, pratik ve hız ile Turca App uygulama hizmetleri"
+    "desc": "Basit, pratik ve hız ile Turca App uygulama hizmetleri",
+    "url": "https://turca.app",
+    "siteName": "Turca App",
+    "keywords": [
+      "Turca App",
+      "Come Eat",
+      "One Visit",
+      "Captive Portal",
+      "Hot Spot"
+    ],
+    "author": "Mehmet Sait Das"
   },
   "navi": [
     {

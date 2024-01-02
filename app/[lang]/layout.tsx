@@ -1,9 +1,8 @@
-import './globals.css'
-import type { Metadata } from 'next'
 
+import './globals.css'
+import { geMessages } from '@/lib/messages'
 import { Locale, i18n } from '@/i18n.config'
 
-import { geMessages } from '@/lib/messages'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 
@@ -30,8 +29,8 @@ export default async function RootLayout({
   children: React.ReactNode
   params: { lang: Locale }
 }) {
-  const { navi } = await geMessages(params.lang);
   await generateMetadata({ params: { lang: params.lang } });
+  const { navi } = await geMessages(params.lang);
 
   return (
     <html lang={params.lang}>
