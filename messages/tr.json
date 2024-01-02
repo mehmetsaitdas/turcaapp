@@ -1,0 +1,136 @@
+{
+  "info": {
+    "title": "Turca App - Yazılım",
+    "desc": "Basit, pratik ve hız ile Turca App uygulama hizmetleri"
+  },
+  "navi": [
+    {
+      "href": "/",
+      "key": "home",
+      "label": "Anasayfa"
+    },
+    {
+      "href": "/about",
+      "key": "about",
+      "label": "Hakkimizda"
+    },
+    {
+      "href": "/contact",
+      "key": "contact",
+      "label": "Iletisim"
+    }
+  ],
+  "footer": [
+    {
+      "title": "Daha Fazla Bilgi",
+      "links": [
+        {
+          "label": "Gizlilik Politikası",
+          "href": "work"
+        },
+        {
+          "label": "Kullanım Şartları",
+          "href": "work"
+        }
+      ]
+    },
+    {
+      "title": "Projelerimiz",
+      "links": [
+        {
+          "label": "Come Eat",
+          "href": "mobile/comeeat"
+        },
+        {
+          "label": "One Visit",
+          "href": "work"
+        }
+      ]
+    }
+  ],
+  "footerInfo": {
+    "title": "Bize Ulaşın",
+    "links": [
+      {
+        "label": "WhatsApp Sohbeti",
+        "value": "+90 535 313 15 63",
+        "href": "https://wa.me/905353131563"
+      },
+      {
+        "label": "E-posta Adresimiz",
+        "value": "info@turca.app",
+        "href": "mailto:info@turca.app"
+      }
+    ]
+  },
+  "socia": {
+    "title": "Sosyal Medya",
+    "links": [
+      {
+        "label": "facebook",
+        "icon": "/footer/facebook.svg",
+        "href": "https://www.facebook.com/turcaapp"
+      },
+      {
+        "label": "instagram",
+        "icon": "/footer/instagram.svg",
+        "href": "https://www.instagram.com/turcaapp"
+      },
+      {
+        "label": "tiktok",
+        "icon": "/footer/tiktok.svg",
+        "href": "https://www.tiktok.com/@turcaapp"
+      },
+      {
+        "label": "whatsapp",
+        "icon": "/footer/whatsapp.svg",
+        "href": "https://wa.me/905353131563"
+      },
+      {
+        "label": "youtube",
+        "icon": "/footer/youtube.svg",
+        "href": "https://www.youtube.com/@TurcaApp"
+      }
+    ]
+  },
+  "mobile": [
+    {
+      "names": "comeeat",
+      "title": "Come Eat",
+      "icon": "/come/food.svg",
+      "messa": "BIZ SENIN ICIN BURADAYIZ",
+      "desc": "Come Eat uygulaması kafe, restoran ve otel gibi işletmelerde benzersiz bir şekilde çalışmaktadır. Uygulamamız apple, android ve web platformlarını desteklemektedir. Müşterileriniz QR kodunu tarayarak veya evden kolayca sipariş verebilirler. Sipariş verildiği anda otomatik olarak bilgilendirilir ve sisteme gönderilir. İşletmenizi iPad ve telefon üzerinden yönetmeye ne dersiniz? Takıldığınız konularda da uygulama üzerinden bizimle iletişime geçebilirsiniz. Yapabilir miyim diye endişelenmeyin, sizin için YouTube eğitim kanalı oluşturduk",
+      "topImage": "/come/comea.png",
+      "cenImage": "/come/comee.png",
+      "butImage": "/come/comeo.png",
+      "featuresTitle": "Uygulama Özellikleri",
+      "featuresLista": [
+        {
+          "icon": "/come/qrcode.svg",
+          "title": "Qr Menü Siparişi",
+          "desc": "Bir müşteri işletmenizi ziyaret ettiğinde sadece QR Menüdeki ürünleri görüntüleyebilir veya sipariş verebilir. Gelen siparişleri dilediğiniz garsona veya mutfağa iletebilirsiniz"
+        },
+        {
+          "icon": "/come/mapa.svg",
+          "title": "Adres Siparişi",
+          "desc": "Müşteriler uygulamayı açarak evlerine kolaylıkla sipariş verebilirler. İşletme özelliklerini ayarlayarak mesafeye göre minimum sepet tutarını belirleyebilirsiniz"
+        },
+        {
+          "icon": "/come/dasha.svg",
+          "title": "Kontrol Paneli Raporu",
+          "desc": "Dünyanın her yerinden işletmenizi görüntüleyebilir ve müdahale edebilirsiniz. Ayrıca günlük, haftalık, aylık ve yıllık satış raporlarını da görüntüleyebilirsiniz"
+        },
+        {
+          "icon": "/come/other.svg",
+          "title": "Diğer Özellikler",
+          "desc": "Pratik, basit, hızlı ve kullanımı kolay bir yazılımdır. Nasıl yapılır diye düşünmeyin, YouTube'da bir eğitim kanalı oluşturduk, kısaca göz atabilirsiniz"
+        }
+      ],
+      "fooTitle": "Şimdi ücretsiz alın!",
+      "fooDesc": "iOS ve Android'de mevcut",
+      "fooAppStoHref": "https://apps.apple.com/us/app/come-eat/id6468957649",
+      "fooPlayStoHref": "https://play.google.com/store/apps/details?id=app.turca.comeeat",
+      "fooYouTubeHref": "https://www.youtube.com/@TurcaApp/playlists"
+    }
+  ]
+}

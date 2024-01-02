@@ -1,0 +1,136 @@
+{
+  "info": {
+    "title": "Turca App - Software",
+    "desc": "Turca App application services with simple, practical and speed"
+  },
+  "navi": [
+    {
+      "href": "/",
+      "key": "home",
+      "label": "Home"
+    },
+    {
+      "href": "/about",
+      "key": "about",
+      "label": "About"
+    },
+    {
+      "href": "/contact",
+      "key": "contact",
+      "label": "Contact"
+    }
+  ],
+  "footer": [
+    {
+      "title": "More Info",
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "href": "work"
+        },
+        {
+          "label": "Terms of Use",
+          "href": "work"
+        }
+      ]
+    },
+    {
+      "title": "Our Projects",
+      "links": [
+        {
+          "label": "Come Eat",
+          "href": "mobile/comeeat"
+        },
+        {
+          "label": "One Visit",
+          "href": "work"
+        }
+      ]
+    }
+  ],
+  "footerInfo": {
+    "title": "Contact Us",
+    "links": [
+      {
+        "label": "WhatsApp Chat",
+        "value": "+90 535 313 15 63",
+        "href": "https://wa.me/905353131563"
+      },
+      {
+        "label": "Our Email Address",
+        "value": "info@turca.app",
+        "href": "mailto:info@turca.app"
+      }
+    ]
+  },
+  "socia": {
+    "title": "Social Media",
+    "links": [
+      {
+        "label": "facebook",
+        "icon": "/footer/facebook.svg",
+        "href": "https://www.facebook.com/turcaapp"
+      },
+      {
+        "label": "instagram",
+        "icon": "/footer/instagram.svg",
+        "href": "https://www.instagram.com/turcaapp"
+      },
+      {
+        "label": "tiktok",
+        "icon": "/footer/tiktok.svg",
+        "href": "https://www.tiktok.com/@turcaapp"
+      },
+      {
+        "label": "whatsapp",
+        "icon": "/footer/whatsapp.svg",
+        "href": "https://wa.me/905353131563"
+      },
+      {
+        "label": "youtube",
+        "icon": "/footer/youtube.svg",
+        "href": "https://www.youtube.com/@TurcaApp"
+      }
+    ]
+  },
+  "mobile": [
+    {
+      "names": "comeeat",
+      "title": "Come Eat",
+      "icon": "/come/food.svg",
+      "messa": "WE ARE HERE FOR YOU",
+      "desc": "Come Eat application works uniquely in businesses such as cafes, restaurants and hotels. Our application supports apple, android and web platforms. Your customers can easily order by scanning the QR code or from home. As soon as the order is placed, it is automatically notified and sent to the system. How about managing your business via iPad and phone? You can also contact us via the application on issues you are stuck on. Dont worry about whether I can do it, we have created a YouTube training channel for you",
+      "topImage": "/come/comea.png",
+      "cenImage": "/come/comee.png",
+      "butImage": "/come/comeo.png",
+      "featuresTitle": "Application Features",
+      "featuresLista": [
+        {
+          "icon": "/come/qrcode.svg",
+          "title": "Qr Menu Order",
+          "desc": "When a customer visits your business, they can only view the products on the QR Menu or place an order.You can forward incoming orders to the waiter or kitchen of your choice"
+        },
+        {
+          "icon": "/come/mapa.svg",
+          "title": "Address Order",
+          "desc": "Customers can easily place orders at home by opening the application. You can set the minimum cart amount based on distance by setting the business properties"
+        },
+        {
+          "icon": "/come/dasha.svg",
+          "title": "Dashboard Report",
+          "desc": "You can view and intervene in your business from anywhere in the world. You can also view daily, weekly, monthly and annual sales reports"
+        },
+        {
+          "icon": "/come/other.svg",
+          "title": "Other Features",
+          "desc": "It is a practical, simple, fast and easy-to-use software. Dont worry about how to do it, we have created a training channel on YouTube, you can take a brief look"
+        }
+      ],
+      "fooTitle": "Get for free now!",
+      "fooDesc": "Available on iOS and Android",
+      "fooAppStoHref": "https://apps.apple.com/us/app/come-eat/id6468957649",
+      "fooPlayStoHref": "https://play.google.com/store/apps/details?id=app.turca.comeeat",
+      "fooYouTubeHref": "https://www.youtube.com/@TurcaApp/playlists"
+    }
+  ]
+}
