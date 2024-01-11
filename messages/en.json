@@ -20,12 +20,12 @@
       "label": "Home"
     },
     {
-      "href": "/about",
+      "href": "about",
       "key": "about",
       "label": "About"
     },
     {
-      "href": "/contact",
+      "href": "contact",
       "key": "contact",
       "label": "Contact"
     }
@@ -36,11 +36,11 @@
       "links": [
         {
           "label": "Privacy Policy",
-          "href": "work"
+          "href": "privacy-policy"
         },
         {
           "label": "Terms of Use",
-          "href": "work"
+          "href": "terms-of-use"
         }
       ]
     },
@@ -53,7 +53,7 @@
         },
         {
           "label": "One Visit",
-          "href": "work"
+          "href": "mobile/onevisit"
         }
       ]
     }
@@ -99,7 +99,7 @@
       {
         "label": "youtube",
         "icon": "/footer/youtube.svg",
-        "href": "https://www.youtube.com/@TurcaApp"
+        "href": "https://www.youtube.com/@TurcaApp/playlists"
       }
     ]
   },
@@ -108,8 +108,8 @@
       "names": "comeeat",
       "title": "Come Eat",
       "icon": "/come/food.svg",
-      "messa": "WE ARE HERE FOR YOU",
-      "desc": "Come Eat application works uniquely in businesses such as cafes, restaurants and hotels. Our application supports apple, android and web platforms. Your customers can easily order by scanning the QR code or from home. As soon as the order is placed, it is automatically notified and sent to the system. How about managing your business via iPad and phone? You can also contact us via the application on issues you are stuck on. Dont worry about whether I can do it, we have created a YouTube training channel for you",
+      "messa": "WE ARE HERE FOR YOU TO EAT",
+      "desc": "Come Eat application works uniquely in businesses such as cafes, restaurants and hotels. Our application supports apple, android and web platforms. Your customers can easily order by scanning the QR code or from home. As soon as the order is placed, it is automatically notified and sent to the system. You can manage your business very easily via iPad or phone. There is no need for a computer, printer or other working system for installation. You can download the application to your tablet and start using it. You can also contact us via the application on issues you are stuck on. Don't worry if I can do it, we have created a YouTube training channel for you. You can continue the practical training via the YouTube link below",
       "topImage": "/come/comea.png",
       "cenImage": "/come/comee.png",
       "butImage": "/come/comeo.png",
@@ -133,14 +133,52 @@
         {
           "icon": "/come/other.svg",
           "title": "Other Features",
-          "desc": "It is a practical, simple, fast and easy-to-use software. Dont worry about how to do it, we have created a training channel on YouTube, you can take a brief look"
+          "desc": "It is a practical, simple, fast and easy to use software. Don't think about how to do it, we have created a training channel on YouTube, you can take a quick look"
         }
       ],
       "fooTitle": "Get for free now!",
       "fooDesc": "Available on iOS and Android",
       "fooAppStoHref": "https://apps.apple.com/us/app/come-eat/id6468957649",
       "fooPlayStoHref": "https://play.google.com/store/apps/details?id=app.turca.comeeat",
-      "fooYouTubeHref": "https://www.youtube.com/@TurcaApp/playlists"
+      "fooYouTubeHref": "https://www.youtube.com/watch?v=0IXfHHBK4_Q&list=PL3XAsVCp5TAuTGQeT1c1bYiD-3CpRogG3"
+    },
+    {
+      "names": "onevisit",
+      "title": "One Visit",
+      "icon": "/onevisi/guard.svg",
+      "messa": "WE ARE HERE FOR YOUR SAFETY",
+      "desc": "Protect all security-controlled areas of your company or home with the One Visit application. You know that dangerous people can pass the security point very easily. When you come to the security point and say you will meet this person, maybe the security will allow it. Only the verification and notification system is activated for the One Visit application",
+      "topImage": "/onevisi/onevisia.png",
+      "cenImage": "/onevisi/onevisie.png",
+      "butImage": "/onevisi/onevisio.png",
+      "featuresTitle": "Application Features",
+      "featuresLista": [
+        {
+          "icon": "/onevisi/qrcode.svg",
+          "title": "Security Check",
+          "desc": "Security will want to search you while letting your guest in. During this time, your guest waits at the door. Thanks to the One Visit Qr Code, your guest will not have to wait at the door"
+        },
+        {
+          "icon": "/onevisi/notica.svg",
+          "title": "Notification Assistant",
+          "desc": "After your guest accepts the invitation, you will receive an instant notification of whoever you invited, and you will be notified every time your guest passes the security checkpoint"
+        },
+        {
+          "icon": "/onevisi/dasha.svg",
+          "title": "Visit Report",
+          "desc": "You can view friends you have visited from all over the world. You can also view daily, weekly, monthly and annual reports of these visits"
+        },
+        {
+          "icon": "/onevisi/other.svg",
+          "title": "Other Features",
+          "desc": "It is a practical, simple, fast and easy to use software. We allow you to access the system from any area you want by logging in with your Apple or Google account"
+        }
+      ],
+      "fooTitle": "Get for free now!",
+      "fooDesc": "Available on iOS and Android",
+      "fooAppStoHref": "https://apps.apple.com/us/app/one-visit/id6468957825",
+      "fooPlayStoHref": "https://play.google.com/store/apps/details?id=app.turca.onevisit",
+      "fooYouTubeHref": "https://www.youtube.com/watch?v=nE83gLj1YFo&list=PL3XAsVCp5TAsimHKrh4XNMrm8EpN_ynpz"
     }
   ]
 }

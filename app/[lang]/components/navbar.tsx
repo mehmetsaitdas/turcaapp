@@ -4,6 +4,9 @@ import React, { useState } from 'react'
 import Image from "next/image"
 import Link from "next/link"
 
+import { geMessages } from '@/lib/messages'
+import { Locale } from '@/i18n.config'
+
 type naviProps = {
     navi: {
         href: string;
@@ -12,7 +15,7 @@ type naviProps = {
     }[]
 }
 
-const Navbar = ({ navi }: naviProps) => {
+const Navbar = async ({ lang }: { lang: Locale }) => {
 
     const [isClick, setisClick] = useState(false);
 
@@ -20,13 +23,15 @@ const Navbar = ({ navi }: naviProps) => {
         setisClick(!isClick)
     }
 
+    const { navi } = await geMessages(lang);
+
     return (
         <nav className='bg-black sticky top-0 z-50'>
             <div className='max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex items-center justify-between h-16'>
                     <div className='flex items-center '>
                         <div className='flex-shrink-0'>
-                            <Link href="/">
+                            <Link href={`/${lang}`}>
                                 <Image src="/aogo/white.svg"
                                     alt="logo"
                                     width={0}
@@ -39,7 +44,7 @@ const Navbar = ({ navi }: naviProps) => {
                     <div className='hidden md:block'>
                         <div className='ml-4 flex items-center space-x-4'>
                             {navi.map((item) => (
-                                <Link href={item.href} key={item.key} className="text-white hover:bg-white hover:text-black rounded-lg p-2">
+                                <Link href={`/${lang}/${item.href}`} key={item.key} className="text-white hover:bg-white hover:text-black rounded-lg p-2">
                                     {item.label}
                                 </Link>
                             ))}
@@ -74,7 +79,7 @@ const Navbar = ({ navi }: naviProps) => {
                 <div className='md:hidden'>
                     <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
                         {navi.map((item) => (
-                            <Link href={item.href} key={item.key} className="text-white block hover:bg-white hover:text-black rounded-lg p-2" onClick={toggleNavbar}>
+                            <Link href={`/${lang}/${item.href}`} key={item.key} className="text-white block hover:bg-white hover:text-black rounded-lg p-2" onClick={toggleNavbar}>
                                 {item.label}
                             </Link>
                         ))}

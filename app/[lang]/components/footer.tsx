@@ -28,7 +28,7 @@ const Footer = async ({ lang }: { lang: Locale }) => {
         <footer className="flexCenter mb-24">
             <div className="padding-container max-container flex w-full flex-col gap-8">
                 <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
-                    <Link href="/" className="mb-6">
+                    <Link href={`/${lang}`} className="mb-6">
                         <Image src='/aogo/dark.svg' alt='logo'
                             width={0}
                             height={0}
