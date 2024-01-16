@@ -180,5 +180,17 @@
       "fooPlayStoHref": "https://play.google.com/store/apps/details?id=app.turca.onevisit",
       "fooYouTubeHref": "https://www.youtube.com/watch?v=nE83gLj1YFo&list=PL3XAsVCp5TAsimHKrh4XNMrm8EpN_ynpz"
     }
+  ],
+  "document": [
+    {
+      "names": "privacyPolicy",
+      "title": "Privacy Policy",
+      "detai": "aa ss dd"
+    },
+    {
+      "names": "termsOfUse",
+      "title": "Terms Of Use",
+      "detai": "aa ss dd"
+    }
   ]
 }

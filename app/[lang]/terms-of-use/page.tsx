@@ -9,9 +9,9 @@ const TermsOfUse = async ({
 }: {
     params: { lang: Locale }
 }) => {
+
     return (
         <>
-            Terms of Use
             {/* <Guide params={{ lang, names }} />
             <Features params={{ lang, names }} />
             <GetApp params={{ lang, names }} /> */}

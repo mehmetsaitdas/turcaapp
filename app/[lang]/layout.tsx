@@ -30,12 +30,12 @@ export default async function RootLayout({
   params: { lang: Locale }
 }) {
   await generateMetadata({ params: { lang: params.lang } });
-
+  const { navi } = await geMessages(params.lang);
 
   return (
     <html lang={params.lang}>
       <body className={inter.className}>
-        <Navbar lang={params.lang} />
+        <Navbar lang={params.lang} navi={navi} />
         <main className='relative overflow-hidden'>
           {children}
         </main>

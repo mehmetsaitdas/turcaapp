@@ -4,26 +4,21 @@ import React, { useState } from 'react'
 import Image from "next/image"
 import Link from "next/link"
 
-import { geMessages } from '@/lib/messages'
 import { Locale } from '@/i18n.config'
 
-type naviProps = {
-    navi: {
+const Navbar = ({ lang, navi }: {
+    lang: Locale, navi: {
         href: string;
         key: string;
         label: string;
     }[]
-}
-
-const Navbar = async ({ lang }: { lang: Locale }) => {
+}) => {
 
     const [isClick, setisClick] = useState(false);
 
     const toggleNavbar = (): void => {
         setisClick(!isClick)
     }
-
-    const { navi } = await geMessages(lang);
 
     return (
         <nav className='bg-black sticky top-0 z-50'>
@@ -90,7 +85,5 @@ const Navbar = async ({ lang }: { lang: Locale }) => {
         </nav>
     )
 }
-
-
 
 export default Navbar

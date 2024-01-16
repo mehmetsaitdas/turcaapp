@@ -26,7 +26,6 @@ const Features = async ({
                         sizes="100vw"
                         style={{ width: '30%', height: 'auto' }}
                         className="feature-phone" />
-
                 </div>
 
                 <div className="z-20 flex w-full flex-col lg:w-[60%]">

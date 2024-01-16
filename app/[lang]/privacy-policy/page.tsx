@@ -1,6 +1,4 @@
-import Guide from "../components/guide";
-import Features from "../components/features";
-import GetApp from "../components/get-app";
+import Document from "../components/document";
 
 import { Locale } from '@/i18n.config'
 
@@ -9,9 +7,10 @@ const PrivacyPolicy = async ({
 }: {
     params: { lang: Locale }
 }) => {
+
     return (
         <>
-            Privacy Policy
+            <Document params={{ lang, names: "privacyPolicy" }} />
             {/* <Guide params={{ lang, names }} />
             <Features params={{ lang, names }} />
             <GetApp params={{ lang, names }} /> */}
