@@ -23,6 +23,7 @@ const Footer = async ({ lang }: { lang: Locale }) => {
     const { footer } = await geMessages(lang)
     const { footerInfo } = await geMessages(lang)
     const { socia } = await geMessages(lang)
+    const { langu } = await geMessages(lang)
 
     return (
         <footer className="flexCenter mb-24">
@@ -36,7 +37,7 @@ const Footer = async ({ lang }: { lang: Locale }) => {
                             style={{ width: '100%', height: 'auto' }}
                         />
                     </Link>
-                    <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
+                    <div className='flex flex-wrap gap-20 sm:justify-between md:flex-1'>
                         {footer.map((itema) => (
                             <div className="flex flex-col gap-5" key={itema.title}>
                                 <h4 className="bold-18 whitespace-nowrap">{itema.title}</h4>
@@ -72,6 +73,19 @@ const Footer = async ({ lang }: { lang: Locale }) => {
                                     {socia.links.map((item) => (
                                         <Link href={item.href} key={item.icon} target='_blank'>
                                             <Image src={item.icon} alt="logo" width={24} height={24} />
+                                        </Link>
+                                    ))}
+                                </ul>
+                            </FooterColumn>
+                        </div>
+                        <div className="flex flex-col gap-5">
+                            <FooterColumn title={langu.title}>
+                                <ul className="regular-14 flex gap-4 text-gray-30">
+                                    {langu.lista.map((item, index) => (
+                                        <Link href={item.href} key={index}>
+                                            <p className="whitespace-nowrap">
+                                                {item.label}
+                                            </p>
                                         </Link>
                                     ))}
                                 </ul>
