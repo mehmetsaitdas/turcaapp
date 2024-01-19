@@ -3,8 +3,8 @@ import './globals.css'
 import { geMessages } from '@/lib/messages'
 import { Locale, i18n } from '@/i18n.config'
 
-import Navbar from './components/navbar'
-import Footer from './components/footer'
+import Navbar from './compo/navbar'
+import Footer from './compo/footer'
 
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })

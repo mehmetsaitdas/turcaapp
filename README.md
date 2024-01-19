@@ -1,8 +1,8 @@
 # next JS calistirma icin
  npm run dev
 
- iletisim
- hakkimizda
  anasayfa
 
- yayinla
+ yayinla daha sonra
+
+ hotspot icin linux - windows -> sayfalari bitir

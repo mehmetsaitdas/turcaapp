@@ -43,6 +43,10 @@
       "label": "Iletisim"
     }
   ],
+  "homeInfo": {
+    "title": "Teknolojiye Bir Evrim",
+    "deta": "Yapay zeka sistemleri hayatın vazgeçilmez bir parçası haline geliyor. Teknoloji ağında büyürken doğru tercihi yapmak gerekiyor. Projelerimizi geliştirirken bu gelişmeleri dikkate alarak adımlar atıyoruz. Bu süreçten dolayı bizi tercih etmenizi ve bizimle çalışmanızı isteriz"
+  },
   "footer": [
     {
       "title": "Daha Fazla Bilgi",
@@ -117,6 +121,20 @@
         "label": "youtube",
         "icon": "/footer/youtube.svg",
         "href": "https://www.youtube.com/@TurcaApp/playlists"
+      }
+    ]
+  },
+  "contactInfo": {
+    "title": "13 Yıldır Yazıyoruz",
+    "deta": "Yazılım projeleri alanında ve Mobile yazılım üreticisi olarak 2010 yılından bu yana mesleğimizi tutku ile yürütüyor, marka konseptimiz ile akıllı projeler tasarlıyoruz. Bizim işimiz güncel bir fikri, teknoloji ile buluşturup değerler üretmek. Yatırım geri dönüşüyle müşterilerimizi mutlu etmek, basit pratik kullanıcının kafasını karıştırmadan işlemleri halletmek, kısaca güçlü işler çıkartmak için heyecanla çalışıyoruz. Müşterilerimiz işlerini büyütürken, bizlerde Dünyanın'nin yazılım markasını inşa ediyoruz",
+    "booLista": [
+      {
+        "title": "Global Şirketlerde Milyonlarca Online Kullanıcı",
+        "deta": "Stok, Depo, Sipariş, Teklif, Restorant, Cafe, Güvenlik, Servis Takibi, Yapay Zeka Sistemi ile Daha fazlası..."
+      },
+      {
+        "title": "Özel Yazılım Projeleri",
+        "deta": "Müşteri fikir, deneyimlerini önemsiyor ve onları dikkatlice dinleyip kodlara aktarıyoruz. Bu işlemleri heyecan ve keyif ile gerçekleştiriyoruz"
       }
     ]
   },
@@ -222,7 +240,7 @@
     ],
     "listaDetaNum": {
       "title": "Kişisel Verileri İşlenen Kişi Olarak Haklarınız",
-      "detai": "KVKK madde 11 uyarınca herkes, veri sorumlusuna başvurarak aşağıdaki haklarını kullanabilir:",
+      "deta": "KVKK madde 11 uyarınca herkes, veri sorumlusuna başvurarak aşağıdaki haklarını kullanabilir:",
       "listaDeta": [
         "a. Kişisel veri işlenip işlenmediğini öğrenme",
         "b. Kişisel verileri işlenmişse buna ilişkin bilgi talep etme",

@@ -11,7 +11,7 @@ const TermsOfUse = async ({
 
     return (
         <>
-            <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-10">
+            <section className="flex-col flexCenter overflow-hidden bg-feature bg-center bg-no-repeat py-10">
                 <div className="max-container padding-container relative w-full flex justify-end">
                     <div className="z-20 flex w-full flex-col lg:w-[60%]">
                         <h2 className="bold-32 lg:bold-32 mt-5 capitalize">

@@ -11,7 +11,7 @@ const PrivacyPolicy = async ({
 
     return (
         <>
-            <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-10">
+            <section className="flex-col flexCenter overflow-hidden bg-feature bg-center bg-no-repeat py-10">
                 <div className="max-container padding-container relative w-full flex justify-end">
                     <div className="z-20 flex w-full flex-col lg:w-[60%]">
                         <h2 className="bold-32 lg:bold-32 mt-5 capitalize">
@@ -39,7 +39,7 @@ const PrivacyPolicy = async ({
                                 {privacyPolicy.listaDetaNum.title}
                             </h3>
                             <p className="regular-16 mt-0 bg-white/80 text-gray-30 lg:mt-[10px] lg:bg-none">
-                                {privacyPolicy.listaDetaNum.detai}
+                                {privacyPolicy.listaDetaNum.deta}
                             </p>
                             {privacyPolicy.listaDetaNum.listaDeta.map((item, index) => (
                                 <p className="regular-16 mt-0 bg-white/80 text-gray-30 lg:mt-[10px] lg:bg-none" key={index}>

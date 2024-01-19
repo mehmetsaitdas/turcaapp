@@ -43,6 +43,10 @@
       "label": "Contact"
     }
   ],
+  "homeInfo": {
+    "title": "An Evolution to Technology",
+    "deta": "Artificial intelligence systems are becoming an indispensable part of life. It is necessary to make the right choice when growing in the technology network. We take steps by taking these developments into account when developing our projects. We would like you to choose us and work with us due to this process"
+  },
   "footer": [
     {
       "title": "More Info",
@@ -117,6 +121,20 @@
         "label": "youtube",
         "icon": "/footer/youtube.svg",
         "href": "https://www.youtube.com/@TurcaApp/playlists"
+      }
+    ]
+  },
+  "contactInfo": {
+    "title": "We Have Been Writing for 13 Years",
+    "deta": "We have been carrying out our profession with passion in the field of software projects and as a Mobile software manufacturer since 2010, and we design smart projects with our brand concept. Our job is to combine a current idea with technology and produce values. We work with enthusiasm to make our customers happy with the return on investment, to handle simple practical transactions without confusing the user, in short, to produce strong work. While our customers grow their businesses, we build the World's software brand",
+    "booLista": [
+      {
+        "title": "Millions of Online Users in Global Companies",
+        "deta": "Stock, Warehouse, Order, Offer, Restaurant, Cafe, Security, Service Tracking, More with Artificial Intelligence System..."
+      },
+      {
+        "title": "Special Software Projects",
+        "deta": "We care about customer ideas and experiences, and we listen to them carefully and transfer them into codes. We carry out these operations with excitement and pleasure"
       }
     ]
   },
@@ -222,7 +240,7 @@
     ],
     "listaDetaNum": {
       "title": "Your Rights as the Person Whose Personal Data is Processed",
-      "detai": "In accordance with Article 11 of PDPL(Personal Data Protection Law), anyone can exercise the following rights by applying to the data controller:",
+      "deta": "In accordance with Article 11 of PDPL(Personal Data Protection Law), anyone can exercise the following rights by applying to the data controller:",
       "listaDeta": [
         "a. Learning whether personal data is processed or not",
         "b. Requesting information if personal data has been processed",

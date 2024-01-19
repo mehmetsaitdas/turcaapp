@@ -1,6 +1,6 @@
-import Guide from "../../components/guide";
-import Features from "../../components/features";
-import GetApp from "../../components/get-app";
+import Guide from "../../compo/guide";
+import Features from "../../compo/features";
+import GetApp from "../../compo/get-app";
 
 import { Locale } from '@/i18n.config'
 
