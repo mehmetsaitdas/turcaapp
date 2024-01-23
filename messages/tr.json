@@ -44,9 +44,53 @@
     }
   ],
   "homeInfo": {
-    "title": "Teknolojiye Bir Evrim",
+    "title": "Teknoloji Bir Evrim",
     "deta": "Yapay zeka sistemleri hayatın vazgeçilmez bir parçası haline geliyor. Teknoloji ağında büyürken doğru tercihi yapmak gerekiyor. Projelerimizi geliştirirken bu gelişmeleri dikkate alarak adımlar atıyoruz. Bu süreçten dolayı bizi tercih etmenizi ve bizimle çalışmanızı isteriz"
   },
+  "homeSlide": [
+    {
+      "title": "Come Eat",
+      "lista": [
+        {
+          "id": 1,
+          "srca": "/slide/slidea01.jpg",
+          "title": "Come Eat - Qr Kodu ile Sipariş Programı",
+          "deta": "Bir restoran veya kafeye gittiğinizde garsonu beklemeden sipariş vermenizi sağlayabiliyoruz",
+          "href": "mobile/comeeat",
+          "btnTitle": "DETAY"
+        },
+        {
+          "id": 2,
+          "srca": "/slide/slidea02.jpg",
+          "title": "Come Eat - Cafe, Restaurant, Otel Sipariş Takibi",
+          "deta": "Yiyecek, İçecek siparişlerinizi kontrol edebileceğiniz kullanıcı dostu ve kolay bir uygulamadır",
+          "href": "mobile/comeeat",
+          "btnTitle": "DETAY"
+        }
+      ]
+    },
+    {
+      "title": "One Visit",
+      "lista": [
+        {
+          "id": 3,
+          "srca": "/slide/slidea03.jpg",
+          "title": "One Visit - Kendinizi ve Ailenizi Tehlikeye Atmayın",
+          "deta": "Güvenlik noktası bulunan her mekanı One Visit - Qr Kodu ile daha güvenli hale getirebilirsiniz",
+          "href": "mobile/onevisit",
+          "btnTitle": "DETAY"
+        },
+        {
+          "id": 4,
+          "srca": "/slide/slidea04.jpg",
+          "title": "One Visit - Basit Kullanımı ile Kullanıcı Dostu",
+          "deta": "Misafiriniz güvenlik noktasına geldiğinde yapması gereken tek şey sahip olduğu Qr Kodu göstermek",
+          "href": "mobile/onevisit",
+          "btnTitle": "DETAY"
+        }
+      ]
+    }
+  ],
   "footer": [
     {
       "title": "Daha Fazla Bilgi",

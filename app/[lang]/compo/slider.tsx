@@ -2,15 +2,16 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-
-//import Description from "./Description";
+import Description from "./description";
 
 const Slider = ({ images }: {
     images: {
         id: number,
         srca: string,
         title: string,
-        desc: string,
+        deta: string,
+        href: string,
+        btnTitle: string,
     }[]
 }) => {
     const [activeImage, setActiveImage] = useState(0);
@@ -36,14 +37,14 @@ const Slider = ({ images }: {
     }, [activeImage]);
 
     return (
-        <div className="grid place-items-center md:grid-cols-2 grid-cols-1 w-full mx-auto max-w-5xl shadow-2xl rounded-2xl">
+        <div className="grid place-items-center grid-cols-2 w-full mx-auto shadow-2xl rounded-3xl">
             <div
-                className={`w-full flex justify-center items-center gap-4 transition-transform ease-in-out duration-500 md:rounded-2xl p-6 md:p-0`}>
+                className={`w-full flex justify-center items-center gap-4 transition-transform ease-in-out duration-500 rounded-3xl p-0`}>
                 {images.map((elem, idx) => (
                     <div
                         key={idx}
                         className={`${idx === activeImage
-                            ? "block w-full h-[80vh] object-cover transition-all duration-500 ease-in-out"
+                            ? "block w-full md:h-[60vh] xs:h-[30vh] object-cover transition-all duration-500 ease-in-out"
                             : "hidden"
                             }`}>
                         <Image
@@ -51,15 +52,15 @@ const Slider = ({ images }: {
                             alt=""
                             width={1512}
                             height={576}
-                            className="w-full h-full object-cover md:rounded-tl-3xl md:rounded-bl-3xl" />
+                            className="w-full h-full object-cover rounded-tl-3xl rounded-bl-3xl" />
                     </div>
                 ))}
             </div>
-            {/* <Description
+            <Description
                 activeImage={activeImage}
                 clickNext={clickNext}
                 clickPrev={clickPrev}
-            /> */}
+                images={images} />
         </div>
     );
 };

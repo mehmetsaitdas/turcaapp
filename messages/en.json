@@ -44,9 +44,53 @@
     }
   ],
   "homeInfo": {
-    "title": "An Evolution to Technology",
+    "title": "Technology is an Evolution",
     "deta": "Artificial intelligence systems are becoming an indispensable part of life. It is necessary to make the right choice when growing in the technology network. We take steps by taking these developments into account when developing our projects. We would like you to choose us and work with us due to this process"
   },
+  "homeSlide": [
+    {
+      "title": "Come Eat",
+      "lista": [
+        {
+          "id": 1,
+          "srca": "/slide/slidea01.jpg",
+          "title": "Come Eat - Order Program with Qr Code",
+          "deta": "When you go to a restaurant or cafe, we can allow you to order without waiting for the waiter",
+          "href": "mobile/comeeat",
+          "btnTitle": "DETAIL"
+        },
+        {
+          "id": 2,
+          "srca": "/slide/slidea02.jpg",
+          "title": "Come Eat - Cafe, Restaurant, Hotel Order Tracking",
+          "deta": "It is a user-friendly and easy application where you can control your food and beverage orders",
+          "href": "mobile/comeeat",
+          "btnTitle": "DETAIL"
+        }
+      ]
+    },
+    {
+      "title": "One Visit",
+      "lista": [
+        {
+          "id": 3,
+          "srca": "/slide/slidea03.jpg",
+          "title": "One Visit - Don't Endanger Yourself and Your Family",
+          "deta": "You can make any place with a security point safer with One Visit - Qr Code",
+          "href": "mobile/onevisit",
+          "btnTitle": "DETAIL"
+        },
+        {
+          "id": 4,
+          "srca": "/slide/slidea04.jpg",
+          "title": "One Visit - User-Friendly with Simple Usage",
+          "deta": "When your guest arrives at the security point, all she has to do is show her QR Code",
+          "href": "mobile/onevisit",
+          "btnTitle": "DETAIL"
+        }
+      ]
+    }
+  ],
   "footer": [
     {
       "title": "More Info",
