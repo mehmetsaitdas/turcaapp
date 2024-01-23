@@ -106,7 +106,6 @@ const Home = async ({
           ))}
         </div>
       </section>
-
     </>
   )
 }

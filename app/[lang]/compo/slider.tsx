@@ -16,12 +16,13 @@ const Slider = ({ images }: {
 }) => {
     const [activeImage, setActiveImage] = useState(0);
 
-    const clickNext = () => {
+    const clickNexta = () => {
         activeImage === images.length - 1
             ? setActiveImage(0)
             : setActiveImage(activeImage + 1);
     };
-    const clickPrev = () => {
+
+    const clickPreva = () => {
         activeImage === 0
             ? setActiveImage(images.length - 1)
             : setActiveImage(activeImage - 1);
@@ -29,7 +30,7 @@ const Slider = ({ images }: {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            clickNext();
+            clickNexta();
         }, 5000);
         return () => {
             clearTimeout(timer);
@@ -58,8 +59,8 @@ const Slider = ({ images }: {
             </div>
             <Description
                 activeImage={activeImage}
-                clickNext={clickNext}
-                clickPrev={clickPrev}
+                clickNext={clickNexta}
+                clickPrev={clickPreva}
                 images={images} />
         </div>
     );
