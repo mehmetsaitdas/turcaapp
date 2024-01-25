@@ -18,8 +18,4 @@ const Mobile = async ({
     )
 }
 
-export function generateStaticParams() {
-    return [{ lang: "en", names: 'comeeat' }]
-}
-
 export default Mobile
