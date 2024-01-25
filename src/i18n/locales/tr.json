@@ -1,0 +1,36 @@
+{
+  "locale": {
+    "en": "English",
+    "tr": "Türkçe"
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda"
+  },
+  "home": {
+    "header": "deneme bir header yazisi bu lorem ipsum gibi",
+    "created_by": "Bu, şirketin {sirketine} yaptığı katkıdır",
+    "num_visits": "Sayfa ziyaret edilmedi :( | Sayfa {n} kez ziyaret edildi | Sayfa {n} kez ziyaret edildi | Sayfa {n} kez ziyaret edildi"
+  },
+  "about": {
+    "header": "Hakkımızda",
+    "donations": "Toplanan bağışlar: {donations}"
+  },
+  "navi": [
+    {
+      "href": "/",
+      "key": "home",
+      "label": "Home"
+    },
+    {
+      "href": "about",
+      "key": "about",
+      "label": "About"
+    },
+    {
+      "href": "contact",
+      "key": "contact",
+      "label": "Contact"
+    }
+  ]
+}
