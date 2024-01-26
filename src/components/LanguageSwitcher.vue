@@ -4,8 +4,7 @@
       v-for="sLocale in supportedLocales"
       :key="`locale-${sLocale}`"
       :value="sLocale"
-      :selected="locale === sLocale"
-    >
+      :selected="locale === sLocale">
       {{ t(`locale.${sLocale}`) }}
     </option>
   </select>

@@ -20,17 +20,17 @@
     {
       "href": "/",
       "key": "home",
-      "label": "Home"
+      "label": "Anasayfa"
     },
     {
       "href": "about",
       "key": "about",
-      "label": "About"
+      "label": "Hakkimizda"
     },
     {
       "href": "contact",
       "key": "contact",
-      "label": "Contact"
+      "label": "Iletisim"
     }
   ]
 }
